@@ -2720,13 +2720,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_uk
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2736,13 +2736,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_uk
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_marriage_and_civil_partnership_not_possible
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2752,14 +2752,14 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_uk
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
 
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2771,13 +2771,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_ceremony_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2786,13 +2786,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_ceremony_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_marriage_and_civil_partnership_not_possible
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2801,13 +2801,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_ceremony_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2819,13 +2819,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_third_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2834,13 +2834,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_third_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_marriage_and_civil_partnership_not_possible
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
@@ -2849,13 +2849,13 @@ class MarriageAbroadTest < ActiveSupport::TestCase
         context "opposite sex" do
           setup { add_response 'opposite_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_opposite_sex_marriage_in_consular_cni_countries_when_residing_in_third_country
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
         context "same sex" do
           setup { add_response 'same_sex' }
           should "go to romanian marriage outcome" do
-            assert_current_node :outcome_same_sex_for_non_romanians
+            assert_current_node :outcome_marriage_abroad_in_country
           end
         end
       end
